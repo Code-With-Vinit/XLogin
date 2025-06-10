@@ -33,8 +33,8 @@ function App() {
         (
         
         <>
-            {error && <p>invalid username or password</p>}
-            
+            {error && <p>Invalid username or password</p>}
+
             <form>
                 <label htmlFor="fname">Username:</label>
                 <input type="text" value={username} placeholder="username" required
